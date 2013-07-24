@@ -1,0 +1,21 @@
+class.dudafsock.php
+
+- Commenting
+- Changed fputs to fwrite
+- Placed sendRequest method vars initialization at top
+- Initialized $buffer to NULL
+- Initialized $rtn to array()
+
+class.whmcsfsock.php
+
+- Fixed English in enable() error message.
+- Fixed English in disable() error message.
+- Rearranged function ordering to make more logical
+- Replaced fputs with fwrite
+
+class dudamobile.live.php
+
+- Put function calls at the top before non-function code
+- Rearranged function declarations alphabetically
+- Reformatted code for readability and consistency
+- Fixed some grammatical errors in dudaLog calls
